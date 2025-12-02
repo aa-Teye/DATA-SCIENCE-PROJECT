@@ -1,5 +1,5 @@
 
-'''
+
 name = "Alex "
 age = 25
 total_number = 276
@@ -41,7 +41,7 @@ for game in powerful_games:
 powerful_games.append("God's of Egypt")
 powerful_games[1] = 'Final Quest'
 print(powerful_games)
-'''
+
 # Playing with Functions
 def sayHello():
     print('hello from your very first function')
