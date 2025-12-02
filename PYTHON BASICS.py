@@ -1,5 +1,3 @@
-
-
 name = "Alex "
 age = 25
 total_number = 276
@@ -13,6 +11,7 @@ print("the total number is",total_number)
 username = input("what is your name?")
 print("YOu are welcome ",username )
 print("It is beautiful to have you with us ",username)
+
 
 #Using conditional Statements:
 user_age = int(input("Enter your age:  "))
@@ -36,11 +35,12 @@ powerful_games = ['game of thrones','the devil may cry','god of war']
 for game in powerful_games:
     print('the name of selected game is ', game)
 
-#Playing with Lists 
 
+#Playing with Lists 
 powerful_games.append("God's of Egypt")
 powerful_games[1] = 'Final Quest'
 print(powerful_games)
+
 
 # Playing with Functions
 def sayHello():
@@ -48,6 +48,7 @@ def sayHello():
 
 sayHello()
 sayHello()
+
 
 #Example 2 
 def SayHello(name):
