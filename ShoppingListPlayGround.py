@@ -1,5 +1,5 @@
 # lIST PLAYGROUND 
-
+'''
 shopping_list = ["Bread", "Milk", "Eggs", "Butter"]
 print("Shopping List:", shopping_list)
 shopping_list.append("Cheese")
@@ -19,8 +19,7 @@ for item in shopping_list:
 print("\n --- Bulleting the list with numbers: ---")
 for index, item in enumerate(shopping_list):
     print(f"{index +1} {item} is in the shopping list")
-
-
+'''
 
  #Creating A Onling Shopping Cart Logic Application 
 #Step 1 Creating the empty cart to add items to purchase
@@ -34,3 +33,40 @@ def cart_menu():
     print(3.Remove Item)
     print(4. Empty Cart)
     print(5. Exit)
+
+#Creating the Program Loop
+while True:
+    cart_menu()
+    user_choice = input("what will you want to do, (1-5): ")
+    if user_choice ==  "1":
+        print("\n --- Your Shopping Cart ---")
+        if not cart:
+            print(" Your cart is empty.")
+        else:
+            for index, item in enumerate(cart):
+                print(f"{index + 1} .{item}")
+
+    elif user_choice == "2":
+        item =input("Enter item to be added to the cart: ")
+        cart.append(item)
+        print(f"{item} , has been added to your cart successfully. ")
+
+    elif user_choice == "3":
+        item = input("Enter the item to remove from the cart: ")
+        if item in cart:
+            cart.remove(item)
+            print(f"{item}"has been removed from your cart successfully.")
+        else:
+            print(f"{item} is not in your cart. ")
+
+    elif user_choice == "4":
+    cart.clear()
+    print("Your cart has been emptied successfully.")  
+
+    elif user_choice == "5":
+        print("Thank you for shopping with us. Have a fruitful week")
+        break
+    
+
+                  
+
