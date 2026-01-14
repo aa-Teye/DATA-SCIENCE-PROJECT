@@ -1,0 +1,22 @@
+# lIST PLAYGROUND 
+
+shopping_list = ["Bread", "Milk", "Eggs", "Butter"]
+print("Shopping List:", shopping_list)
+shopping_list.append("Cheese")
+shopping_list.pop()
+
+removed_item = shopping_list.pop()
+print("The removed item is:", removed_item)
+shopping_list.insert(2, "Chololin")
+print("Updated Shopping List: ",shopping_list)
+
+
+#LOOPING THROUGH LIST 
+for item in shopping_list:
+    print(f" {item} is in the shopping list.")
+
+#Using Enumerate 
+print("\n --- Bulleting the list with numbers: ---")
+for index, item in enumerate(shopping_list):
+    print(f"{index +1} {item} is in the shopping list")
+
