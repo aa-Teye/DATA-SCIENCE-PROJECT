@@ -17,5 +17,7 @@ print(ContactInformation.get("email"))
 print(ContactInformation.get("phone_number"))
 print(ContactInformation.keys())
 print(ContactInformation.values())
+print(ContactInformation.get("age"))
+
 
 
