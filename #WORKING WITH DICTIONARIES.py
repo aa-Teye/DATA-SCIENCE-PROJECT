@@ -1,0 +1,21 @@
+#WORKING WITH DICTIONARIES 
+my_dict = {
+   "key1": "value1",
+   "key2": "value2",
+   "key3": "value3"
+}
+
+ContactInformation = {
+    "name": "Alex Teye",
+    "age": 25,
+    "phone_number": "0549044977",
+    "email":" awonders001gmail.com"
+}
+
+print(ContactInformation["name"])
+print(ContactInformation.get("email"))
+print(ContactInformation.get("phone_number"))
+print(ContactInformation.keys())
+print(ContactInformation.values())
+
+
