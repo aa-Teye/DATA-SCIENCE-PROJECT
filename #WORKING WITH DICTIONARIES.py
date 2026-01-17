@@ -20,4 +20,12 @@ print(ContactInformation.values())
 print(ContactInformation.get("age"))
 
 
+My_Dic2 = {
+    "name": "Joseph Atsu" ,
+    "age": 30 ,
+    "Residence": "Tesano" , 
+    "Occupation" : " Medical Doctor"
+}
 
+print(My_Dic2.get("name"))
+print(My_Dic2.get("Occupation"))
