@@ -29,3 +29,7 @@ My_Dic2 = {
 
 print(My_Dic2.get("name"))
 print(My_Dic2.get("Occupation"))
+print(My_Dic2.values())
+print(My_Dic2.keys())
+print(My_Dic2.get("Residence"))
+print(My_Dic2.get("age"))
