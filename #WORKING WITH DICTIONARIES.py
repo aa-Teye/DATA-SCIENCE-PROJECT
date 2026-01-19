@@ -39,9 +39,12 @@ My_Dict3 ={
     "name": "Theophius Sunday",
     "age" : "26" ,
     "phone_number" : "0246505130",
-    "email" : "awonders001@gmail.com"
+    "email" : "awonders001@gmail.com",
     "Deparment": "Computer Science" ,
     "Address": "United Kingdom"
 }
 
 print(My_Dict3.get("email"))
+print(My_Dict3.get("Department"))
+print(My_Dict3.get("Address"))
+print(My_Dict3.get("phone_number"))
