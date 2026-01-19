@@ -25,6 +25,7 @@ My_Dic2 = {
     "age": 30 ,
     "Residence": "Tesano" , 
     "Occupation" : " Medical Doctor"
+
 }
 
 print(My_Dic2.get("name"))
@@ -33,3 +34,13 @@ print(My_Dic2.values())
 print(My_Dic2.keys())
 print(My_Dic2.get("Residence"))
 print(My_Dic2.get("age"))
+
+My_Dict3 ={
+    "name": "Theophius Sunday",
+    "age" : "26" ,
+    "phone_number" : "0246505130",
+    "email" : "awonders001@gmail.com"
+    "Deparment": "Computer Science" ,
+    "Address": "United Kingdom"
+}
+
