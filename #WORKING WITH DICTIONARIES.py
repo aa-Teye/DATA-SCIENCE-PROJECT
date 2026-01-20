@@ -53,3 +53,7 @@ My_Dic2["Location"] = "United States of America"
 
 del My_Dic2["email"]
 print(My_Dic2)
+
+for key,value in My_Dic2.items():
+    print(f"{key}: {value}")
+
