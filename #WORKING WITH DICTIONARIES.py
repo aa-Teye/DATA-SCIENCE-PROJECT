@@ -65,3 +65,9 @@ if "email" in My_Dic2:
     print("Email key exist in the dictionary")
 else:
     print("Email is not a key in the current dictionary")
+
+if value in My_Dic2.values():
+    print(value)
+
+
+print(My_Dic2)
