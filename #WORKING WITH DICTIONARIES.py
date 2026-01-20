@@ -44,7 +44,4 @@ My_Dict3 ={
     "Address": "United Kingdom"
 }
 
-print(My_Dict3.get("email"))
-print(My_Dict3.get("Department"))
-print(My_Dict3.get("Address"))
-print(My_Dict3.get("phone_number"))
+
