@@ -61,3 +61,7 @@ for key,value in My_Dic2.items():
 
 for key, value in My_Dict3.items():
     print(f"{key}: {value}")
+if "email" in My_Dic2:
+    print("Email key exist in the dictionary")
+else:
+    print("Email is not a key in the current dictionary")
