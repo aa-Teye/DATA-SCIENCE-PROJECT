@@ -24,9 +24,11 @@ My_Dic2 = {
     "name": "Joseph Atsu" ,
     "age": 30 ,
     "Residence": "Tesano" , 
-    "Occupation" : " Medical Doctor"
+    "Occupation" : " Medical Doctor",
+    "email": "josephlabtech@gmail.com"
 
 }
+
 
 print(My_Dic2.get("name"))
 print(My_Dic2.get("Occupation"))
@@ -45,3 +47,9 @@ My_Dict3 ={
 }
 
 
+My_Dic2["phone_number" ] = +233549044977
+My_Dic2["Residence"] = "Kumasi"
+My_Dic2["Location"] = "United States of America"
+
+del My_Dic2["email"]
+print(My_Dic2)
