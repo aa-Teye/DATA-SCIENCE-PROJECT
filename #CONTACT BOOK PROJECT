@@ -24,4 +24,21 @@ def add_Contact():
    contacts[name] = {"phone": phone, "email" : email}
    print(f"Contact{name} has been added to your contact book successfuly! ")
    
+#Step 4: View All Contacts
+def view_Contacts():
+    if contacts:
+        print("\n --- Contact List ---")
+        for name, other_details in contacts.items():
+            print(f"Name: {name}")
+            print(f"Phone: {other_details["phone"]}")
+            print(f"Email: {other_details["email"]}")
+    else:print ("Your contact book is empty! ")
+
+#Step 5: Search for a Contact
+def search_Contact():
+    name = input("Enter the name of the contact you want to search: ")
+    if name in contacts:
+        print(f"\n --- Contact Details for {name} ---")
+        print(f"Name: {name}")
+        
 
