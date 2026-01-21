@@ -78,3 +78,10 @@ my_Third_Dict = {
     "Student ID" : "20156798",
     "Email" : "sarahjohnson@gmail.com"
 }
+my_Third_Dict["name"] = "Sarah Daleku"
+del my_Third_Dict["Faculty"]
+print(my_Third_Dict)
+my_Third_Dict["Hall_Of_Residence"] = "Legon Hall"
+
+for key,value in my_Third_Dict.items():
+    print(f"{key} : {value}")
