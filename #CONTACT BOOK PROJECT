@@ -3,6 +3,9 @@
 # THIS IS A CONTACT BOOK PROJECT
 
 #Step 1: Create ane empty contact book
+from day8 import add_contact, delete_contact, edit_contact, search_contact, view_contacts
+
+
 contacts ={}
 
 #Step 2:Display the menu for the User
@@ -41,7 +44,7 @@ def search_Contact():
         print(f"\n --- Contact Details for {name} ---")
         print(f"Name: {name}")
         print(f"Phone: {contacts[name]["phone"]}")
-        print(f"email":{contacts[name]["email"]}")
+        print(f"Email: {contacts[name]["email"]}")
     else: 
         print(f"Contact {name} cannot be found in your contact book.")
     
@@ -66,3 +69,22 @@ def delete_Contact():
         print(f"contact {name} cannot be found in your contact book.")
 
         #STEP 9: MAIN PROGRAM LOOP 
+while True:
+    show_menu()
+    choice = input("Enter your choice (1-6): ")
+    if choice == "1":
+        add_contact()
+    elif choice == "2":
+        view_contacts()
+    elif choice == "3":
+        search_contact()
+    elif choice == "4":
+        edit_contact()
+    elif choice == "5":
+        delete_contact()
+    elif choice == "6":
+        print("Thank you for using the Contact Book. Goodbye!")
+        break
+    else:
+        print("Invalid choice. Please select a valid option (1-6).")
+    
