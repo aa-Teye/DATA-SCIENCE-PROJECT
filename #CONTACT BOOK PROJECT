@@ -45,3 +45,24 @@ def search_Contact():
     else: 
         print(f"Contact {name} cannot be found in your contact book.")
     
+#Step 6: Edit a Contact 
+def edit_Contact ():
+    name = input("Enter the name of the contact you want to edit: ")
+    if name in contacts:
+        phone = input("Enter new phone number:")
+        email = input("Enter new email:")
+        contacts[name] = {"phone": phone,"email" : email}
+        print(f"contact {name} has been updated successfully!")
+    else:
+         print(f"Contact {name} cannot be found in your contact book.")
+
+#Step 7: Delete a Contact
+def delete_Contact():
+    name = input("Enter the name of the contact you want to delete:")
+    if name in contacts:
+        del contacts[name]
+        print(f"contact{name} has been deleted successfully!")
+    else:
+        print(f"contact {name} cannot be found in your contact book.")
+
+        #STEP 9: MAIN PROGRAM LOOP 
