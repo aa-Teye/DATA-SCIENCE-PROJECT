@@ -40,5 +40,8 @@ def search_Contact():
     if name in contacts:
         print(f"\n --- Contact Details for {name} ---")
         print(f"Name: {name}")
-        
-
+        print(f"Phone: {contacts[name]["phone"]}")
+        print(f"email":{contacts[name]["email"]}")
+    else: 
+        print(f"Contact {name} cannot be found in your contact book.")
+    
