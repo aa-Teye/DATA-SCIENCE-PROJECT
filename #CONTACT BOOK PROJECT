@@ -88,4 +88,3 @@ while True:
     else:
         print("Invalid choice. Please select a valid option (1-6).")
     
-# Day 8 completion
