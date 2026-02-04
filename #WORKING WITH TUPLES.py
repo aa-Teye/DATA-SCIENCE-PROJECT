@@ -15,3 +15,6 @@ print(c)
 
 fruits = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print(len(fruits))
+
+all_Fruits = fruits + ("pineapple",)
+print(all_Fruits)
