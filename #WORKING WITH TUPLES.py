@@ -12,3 +12,6 @@ a , b, c = components
 print(a)
 print(b)
 print(c)
+
+fruits = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(len(fruits))
